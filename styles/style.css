@@ -13,17 +13,37 @@ li {
 
 a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 #hero {
   display: flex;
   flex-direction: column;
+  background-image: url("/images/coffee-header.jpg");
 }
 
 #hero-content {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+#hero-content h1 {
+  font-size: 48px;
+  padding-top: 40px;
+  padding-right: 170px;
+  padding-bottom: 40px;
+  color: aliceblue;
+}
+
+#hero-content p {
+  font-size: 24px;
+  padding-top: 40px;
+  padding-right: 170px;
+  padding-bottom: 40px;
+  padding-left: 40px;;
+  text-align: right;
+  color: antiquewhite;
 }
 
 ul {
