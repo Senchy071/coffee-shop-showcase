@@ -8,56 +8,65 @@
     <title>Coffee Shop</title>
 </head>
 <body>
-    <div id="content">
-        <div id="hero">
-            <img src="/images/coffee-header.jpg" alt="" width="auto" height="auto">
-            <div id="header">
-                <ul>
-                    <li><a class="nav-link" href="#coffee">Coffee</a></li>
-                    <li><a class="nav-link" href="#tea">Tea</a></li>
-                    <li><a class="nav-link" href="#biscuits">Biscuits</a></li>
-                    <li><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div id="hero-content">
-                <h1>OUR COFFEE SHOP</h1>
-                <p>UNIQUE EXPERIENCE IS WHAT MAKES US STAND OUT FROM THE CROWD. OUR MARVELOUS STAFF AND ONE OF A KIND DELICACIES WILL MAKE YOU COME BACK FOR MORE.</P>
-            </div>
+    
+    <nav class="site-nav grid">
+        <ul>
+            <li><a href="#coffee">Coffee</a></li>
+            <li><a href="#tea">Tea</a></li>
+            <li><a href="#biscuits">Biscuits</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="welcome" class="grid">
+        <div class="welcome-text">
+            <h2>The Best Coffee & Tea Experience<br />On This Side Of Mississipi</h2>
+            <p class="leading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet fugiat ipsam vero error accusantium, animi, deserunt suscipit possimus voluptatibus numquam illo voluptatem impedit, repellendus odio.</p>
+            <a href="" class="button">Visit Us</a> <!-- FINISH THIS -->
         </div>
-
-        <div id="coffee">
-            <h3>COFFEE</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quibusdam eos modi deserunt? Odio quod asperiores rem. Officia impedit obcaecati nemo fuga aliquid assumenda ab saepe quidem. Accusantium, aut eligendi.</p>
+        <div class="welcome-img">
+            <img src="/images/coffee-header.jpg" alt="Picture of some coffee">
         </div>
-
-        <div id="tea">
-            <h3>TEA</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quibusdam eos modi deserunt? Odio quod asperiores rem. Officia impedit obcaecati nemo fuga aliquid assumenda ab saepe quidem. Accusantium, aut eligendi.</p>
+    </section>
+    
+    <section id="offer">
+        <h3>Our Offer</h3>
+        <div class="products grid">
+            <a href="" id="coffee">
+                <img src="/images/coffee-section.jpg" alt="Image of coffee cups">
+                <h4>Our unique blend of coffee</h4>
+            </a>
+            <a href="" id="tea">
+                <img src="/images/tea-section.jpg" alt="Image of tea cups">
+                <h4>Our unique blend of tea</h4>
+            </a>
+            <a href="" id="biscuits">
+                <img src="/images/biscuits-section.jpg" alt="Image of delicious biscuits">
+                <h4>Our unique selection of fine biscuits</h4>
+            </a>
         </div>
+    </section>
 
-        <div id="biscuits">
-            <h3>BISCUITS</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quibusdam eos modi deserunt? Odio quod asperiores rem. Officia impedit obcaecati nemo fuga aliquid assumenda ab saepe quidem. Accusantium, aut eligendi.</p>
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <p class="leading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, reiciendis!</p>
+        <form>
+            <input type="text" placeholder="NAME">
+            <input type="email" placeholder="EMAIL">
+            <textarea placeholder="MESSAGE"></textarea>
+            <button class="button">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="grid">
+            <p class="copyright">Copyright 2022 OMT</p>
+            <ul class="social">
+                <li><a href=""><img src="/images/icon-facebook.svg" alt="facebook"></li>
+                <li><a href=""><img src="/images/icon-twitter.svg" alt="twitter"></li>
+            </ul>
         </div>
-
-        <div id="contact">
-            <div id="social-links">
-                <!-- link to facebook -->
-                <!-- link to instagram -->
-                <!-- link to tweeter -->
-            </div>
-            <div id="shop-address">
-                <!-- email -->
-                <!-- phone -->
-                <!-- address -->
-            </div>
-        </div>
-
-        <div id="footer">
-            <!-- copyright -->
-        </div>
-
-    </div>
+    </footer>
             
 </body>
 </html>
