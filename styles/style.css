@@ -119,11 +119,21 @@ h4 {
 }
 
 .welcome-img img {
-    width: 200%;
+    width: 100%;
+    border: 3px solid var(--primary);
+    border-radius: 40px;
 }
 
 .welcome-text a {
     margin: 20px 0;
+}
+
+#products {
+    padding: 30px 20px;
+}
+
+.products img {
+    border-radius: 20px;
 }
 
 
